@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    align-self: center;
+    text-align: center;
+    width: 95%;
+    margin: 1%;
+}
+
+.button-app {
+    text-align: center;
+}
+.add-new-plant-button-app {
+    border-color: brown;
+    padding: 1%;
+    width: 20%;
+    margin: 2%;
+    background-color: white;
+}

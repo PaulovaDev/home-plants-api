@@ -1,0 +1,16 @@
+.disclose-plant {
+    margin: 0 1%;
+    padding: 2%;
+    width: 30%;
+}
+
+.show-button {
+    border-color: brown;
+    padding: 5%;
+    width: 100%;
+    background-color: white;
+}
+
+.plant-image {
+    width: 100%;
+}
