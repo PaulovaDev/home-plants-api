@@ -1,15 +1,13 @@
-import Plants from "./Components/Plants/Plants"
+import { PlantsList } from "./Components/Plants/PlantsList"
 import './App.css';
 import RoundedCard from "./Components/Style/RoundedCard";
 import Notifications from "./Components/Notifications/Notifications";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React from "react";
-import PlantFormView from "./Components/Forms/PlantFormView";
 
 function App() {
   return (
         <div className='main'>
-          {console.log(window.location.href)}
           <RoundedCard>
             <div className='header'>
               Header
@@ -19,7 +17,7 @@ function App() {
             <Notifications />
           </RoundedCard>
           <RoundedCard>
-              <Plants />
+              <PlantsList />
               <div className="button-app">
                 <button className="add-new-plant-button-app" >
                   <Link to="/form"> Registrar planta </Link>

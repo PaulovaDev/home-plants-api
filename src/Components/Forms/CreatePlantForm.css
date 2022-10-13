@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 95%;
+    font-family:fantasy;
+}
+
+.radio-font-style {
+    font-family:fantasy;
+    background-color: antiquewhite;
 }
 
 .form-buttons {

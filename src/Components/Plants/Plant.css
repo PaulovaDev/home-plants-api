@@ -1,7 +1,10 @@
+.plant-information {
+    width: 20%;
+}
+
 .disclose-plant {
-    margin: 0 1%;
-    padding: 2%;
-    width: 30%;
+    width: 100%;
+    text-align: center;
 }
 
 .show-button {
